@@ -84,3 +84,7 @@ Create a file named routes.txt in the root of the project with the following con
 ```
 
 Now when you run the ng build command it will prerender the pages in the routes.txt file. You can now run the http-server command in the dist/browser folder to see the prerendered pages.
+
+## Signals
+
+Rework your application to use a todos signal instead of a todos field in the component. Make two computed signals which provide the amount of completed and uncompleted todos. Provide a way of updating the completed status of a todo by clicking a checkbox, make sure the signal is updated when the status changes. This should just be local and not persisted to the server. 
