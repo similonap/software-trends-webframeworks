@@ -1,0 +1,11 @@
+{
+	"name": "Node.js & TypeScript",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Angular.ng-template"
+			]
+		}
+	}
+}
