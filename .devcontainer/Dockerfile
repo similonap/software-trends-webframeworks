@@ -7,3 +7,6 @@ RUN npm install -g http-server@14.1.1
 WORKDIR /workspaces/software-trends-webframeworks
 
 CMD ["bash"]
+
+EXPOSE 4200
+EXPOSE 3000
