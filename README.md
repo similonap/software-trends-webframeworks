@@ -101,7 +101,9 @@ Create a new next.js project with the following command:
 create-next-app todo-next-app
 ```
 
-Create the same routes as in the Angular part of the lab. You can use the same API to fetch the todos. Use a react server component so the todos are fetched on the server side. At this point you do not need to worry about being able to update the completed status of a todo.
+Create the same routes as in the Angular part of the lab, make sure you use the new next.js App router to create the routes by using file based routing. Fetch the todos from the same API as in the Angular part of the lab.
+
+Use a react server component so the todos are fetched on the server side. At this point you do not need to worry about being able to update the completed status of a todo.
 
 ### Client Components
 
